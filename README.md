@@ -27,7 +27,7 @@ GET /tarefas/{id}: Retorna uma tarefa específica pelo seu ID.
 PUT /tarefas/{id}: Atualiza as informações de uma tarefa existente.
 DELETE /tarefas/{id}: Exclui uma tarefa existente.
 
-##Status Codes
+## Status Codes
 200 OK: Solicitação bem-sucedida.
 201 Created: Tarefa criada com sucesso.
 400 Bad Request: Solicitação inválida.
