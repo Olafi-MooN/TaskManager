@@ -22,14 +22,21 @@ Cada tarefa possui os seguintes campos:
 A API deve fornecer os seguintes endpoints:
 
 POST /tarefas: Cria uma nova tarefa.
-GET /tarefas: Retorna todas as tarefas.
-GET /tarefas/{id}: Retorna uma tarefa específica pelo seu ID.
+
+GET /tarefas/{id}: Retorna uma tarefa ou varias tarefas específica pelo seu ID.
+
 PUT /tarefas/{id}: Atualiza as informações de uma tarefa existente.
+
 DELETE /tarefas/{id}: Exclui uma tarefa existente.
 
 ## Status Codes
+
 200 OK: Solicitação bem-sucedida.
+
 201 Created: Tarefa criada com sucesso.
+
 400 Bad Request: Solicitação inválida.
+
 404 Not Found: Tarefa não encontrada.
+
 500 Internal Server Error: Erro no servidor.
