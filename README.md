@@ -2,7 +2,7 @@
 ## Descrição
 Este projeto tem como objetivo desenvolver uma API para um sistema Gerenciador de Tarefas utilizando C# e .NET. O sistema permite que os usuários criem, visualizem, editem e excluam tarefas.
 
-##Requisitos
+## Requisitos
 - Arquitetura em Camadas
 - A aplicação segue a prática recomendada de dividir o projeto em camadas. O projeto contém as seguintes camadas:
 - Camada de Comunicação: Responsável pelo gerenciamento das interações com a API.
